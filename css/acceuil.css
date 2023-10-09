@@ -489,10 +489,10 @@ h3 {
 /* ligne d'information */
 .info {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .iconInfo {
@@ -515,7 +515,6 @@ h3 {
 }
 
 .info p {
-  width: 85%;
   text-align: left;
   font-size: 10px;
 }
