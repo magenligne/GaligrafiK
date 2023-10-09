@@ -1,0 +1,538 @@
+@charset "UTF-8";
+/*styles généraux*/
+@font-face {
+  font-family: PoliceGenerale;
+  src: url("/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+}
+.ligneDuHaut {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to bottom, white, transparent, white), url("../images/ordiNature.jpg");
+  height: 180px;
+}
+.ligneDuHaut_menuDuHaut {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0%;
+  width: 85%;
+}
+.ligneDuHaut_menuDuHaut li {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  margin: 10px;
+}
+@media screen and (max-width: 885px) {
+  .ligneDuHaut_menuDuHaut li {
+    margin: 5px;
+    width: 27%;
+  }
+}
+.ligneDuHaut_menuDuHaut a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #444440;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  height: 35px;
+  font-style: italic;
+  width: 150px;
+  padding: 15px;
+  border-radius: 40px 10px 40px 10px;
+  border: 3px solid yellowgreen;
+  text-shadow: 1px 1px 1px #444440;
+  background: radial-gradient(white, #444440);
+  box-shadow: 0px 0px 8px 5px #444440;
+}
+@media screen and (max-width: 885px) {
+  .ligneDuHaut_menuDuHaut a {
+    font-size: 20px;
+    width: 60%;
+  }
+}
+.ligneDuHaut_menuDuHaut a:hover {
+  color: yellowgreen;
+  box-shadow: 0px 0px 10px 5px yellowgreen;
+}
+.ligneDuHaut_menuDuHaut a:active {
+  background-color: white;
+  color: yellowgreen;
+  box-shadow: 0px 0px 8px 5px yellowgreen;
+}
+
+.retourhaut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 40px 0 60px 0;
+  background-color: #444440;
+  box-shadow: 5px 10px 15px 3px rgb(90, 72, 60);
+  height: 30px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+@media screen and (max-width: 885px) {
+  .retourhaut {
+    font-size: 15px;
+  }
+}
+
+.retourhaut:hover {
+  color: yellowgreen;
+}
+
+.retourhaut:active {
+  background-color: white;
+  color: yellowgreen;
+}
+
+/*FOOTER*/
+.retourhaut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 40px 0 60px 0;
+  background-color: #444440;
+  box-shadow: 5px 10px 15px 3px rgb(90, 72, 60);
+  height: 30px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+@media screen and (max-width: 885px) {
+  .retourhaut {
+    font-size: 15px;
+  }
+}
+
+.retourhaut:hover {
+  color: yellowgreen;
+}
+
+.retourhaut:active {
+  background-color: white;
+  color: yellowgreen;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(white, #444440);
+  height: 500px;
+}
+.footer_piedDePage ul {
+  padding: 0%;
+  margin: 10px 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer_piedDePage li {
+  padding-bottom: 5px;
+}
+.footer_piedDePage a {
+  font-size: 14px;
+  font-weight: 700;
+}
+.footer_piedDePage a:hover {
+  color: yellowgreen;
+}
+.footer_piedDePage i {
+  font-size: 50px;
+  color: #444440;
+}
+.footer_piedDePage_pourflex {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  font-family: sans-serif, PoliceGenerale, Arial, Helvetica;
+  max-width: 1700px;
+  margin: auto;
+  background-color: white;
+}
+
+#bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*HEADER*/
+header {
+  width: 100%;
+}
+
+/*SECTION corps*/
+#corps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  padding: 0;
+  color: white;
+  padding: 15px;
+  margin: 20px 40px 20px 40px;
+  background: radial-gradient(#444440, green, yellowgreen);
+  font-style: italic;
+  border-radius: 25px 0;
+  text-shadow: 1px 1px 2px yellowgreen, 0 0 1em yellowgreen, 0 0 0.9em yellowgreen;
+}
+
+h2 {
+  color: white;
+  font-size: 35px;
+  padding: 15px;
+  margin: 0px 40px 0px 40px;
+  background: radial-gradient(#444440, green, yellowgreen);
+  font-style: italic;
+  border-radius: 25px 0;
+}
+@media screen and (max-width: 885px) {
+  h2 {
+    font-size: 25px;
+  }
+}
+
+h3 {
+  color: white;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 5px 5px 5px 0;
+  padding-top: 5px;
+  padding-left: 10px;
+  background: radial-gradient(#444440, green, yellowgreen);
+  font-style: italic;
+  border-radius: 25px 0;
+  padding: 10px;
+}
+@media screen and (max-width: 885px) {
+  h3 {
+    font-size: 17px;
+  }
+}
+
+.card h3 {
+  color: white;
+}
+
+.imgordinature {
+  margin: 15px 5px 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 45%;
+  border-radius: 25px 0;
+  border: 5px yellowgreen solid;
+}
+@media screen and (max-width: 885px) {
+  .imgordinature {
+    width: 35%;
+    animation: 3s apparition;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+  }
+}
+
+.subListeSites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 95%;
+  border-radius: 25px;
+}
+
+.listeSites {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 10px 10px 0;
+}
+
+.listeSites a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.listeSites .card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0 25px;
+  border: 5px white solid;
+  box-shadow: 0px 0px 8px 5px #444440;
+  width: 360px;
+  min-width: 250px;
+  height: 350px;
+}
+@media screen and (max-width: 885px) {
+  .listeSites .card {
+    width: 260px;
+    height: 320px;
+  }
+}
+.listeSites .card h3 {
+  background: radial-gradient(transparent, green, yellowgreen);
+}
+.listeSites .card:hover {
+  box-shadow: 0 0px 8px 10px yellowgreen;
+}
+.listeSites .card img {
+  border-radius: 0 25px 0 0;
+  max-height: 59%;
+}
+@media screen and (max-width: 885px) {
+  .listeSites .card img {
+    height: 55%;
+  }
+}
+.listeSites .card_textCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 30%;
+  background-color: #444440;
+  padding: 1px 10px 20px 5px;
+  color: white;
+  border-radius: 0 25px;
+}
+@media screen and (max-width: 885px) {
+  .listeSites .card_textCard {
+    height: 37%;
+  }
+}
+.listeSites .card_textCard_skills {
+  font-size: 12px;
+  color: white;
+}
+@media screen and (max-width: 885px) {
+  .listeSites .card_textCard_skills {
+    font-size: 10px;
+  }
+}
+.listeSites .card_textCard p {
+  font-weight: 600;
+  text-align: left;
+  padding-left: 10px;
+  margin: 5px 0 0 0;
+}
+.listeSites .card_textCard a {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+.listeSites .card_textCard a:hover {
+  color: yellowgreen;
+}
+
+.listeDesign {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 10px 10px 0;
+}
+
+.listeDesign .lien_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.listeDesign .card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0 25px;
+  border: 5px white solid;
+  box-shadow: 0px 0px 8px 5px #444440;
+  width: 360px;
+  min-width: 250px;
+  height: 650px;
+}
+@media screen and (max-width: 885px) {
+  .listeDesign .card {
+    width: 260px;
+    height: 420px;
+  }
+}
+.listeDesign .card:hover {
+  box-shadow: 0 0px 8px 10px yellowgreen;
+}
+.listeDesign .card img {
+  border-radius: 0 25px 0 0;
+  max-height: 73%;
+}
+.listeDesign .card_img {
+  border-radius: 0 25px 0 0;
+  max-height: 73%;
+}
+.listeDesign .card_textCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 20%;
+  background-color: #444440;
+  padding: 1px 10px 20px 5px;
+  color: white;
+  border-radius: 0 25px;
+}
+.listeDesign .card_textCard_skills {
+  font-size: 12px;
+  color: white;
+}
+.listeDesign .card_textCard p {
+  font-weight: 600;
+  text-align: left;
+  padding-left: 10px;
+  margin: 2px 0 0 0;
+}
+.listeDesign .card_textCard h3 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 5px 5px 0 0;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-radius: 0 25px;
+  background: radial-gradient(transparent, green, yellowgreen);
+}
+@media screen and (max-width: 885px) {
+  .listeDesign .card_textCard h3 {
+    font-size: 17px;
+  }
+}
+.listeDesign .card_textCard a {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+.listeDesign .card_textCard a:hover {
+  color: yellowgreen;
+}
+
+.titre {
+  font-size: 15px;
+}
+
+.lien {
+  margin-top: 20px;
+}
+
+.lien a {
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.pourCentrerTablette p {
+  font-size: 30px;
+}
+
+/* ligne d'information */
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-items: baseline;
+  width: 100%;
+}
+
+.iconInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  border-color: black;
+  height: 22px;
+  width: 22px;
+  margin: 5px;
+}
+
+.card i,
+.iconInfo i {
+  margin: 0%;
+  color: white;
+  font-size: 12px;
+}
+
+.info p {
+  width: 85%;
+  text-align: left;
+  font-size: 12px;
+}
+
+.OCR ul {
+  padding: 0;
+  margin: 0;
+}
+
+.OCR li {
+  margin-bottom: 10px;
+}
+
+.OCR a {
+  color: black;
+  text-shadow: 1px 1px #444440;
+}
+
+.OCR a:hover {
+  color: yellowgreen;
+}
+
+.OCR a:focus {
+  color: yellowgreen;
+}/*# sourceMappingURL=acceuil.css.map */

@@ -1,0 +1,404 @@
+/*styles généraux*/
+@import "couleurs.scss";
+@import "police.scss";
+@import "ligneDuHaut.scss";
+@import "boutonRetourHaut.scss";
+@import "footer.scss";
+
+// @import "menuHamburger.scss";
+body {
+  font-family: sans-serif, PoliceGenerale, Arial, Helvetica;
+  max-width: 1700px;
+  margin: auto;
+  background-color: $fondClair;
+}
+#bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*HEADER*/
+header {
+  width: 100%;
+}
+
+/*SECTION corps*/
+
+#corps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+// .imgordinature h1 {
+//   position: absolute;
+//   font-size: 28px;
+//   font-style: italic;
+//   text-shadow: 2px 2px white;
+//   margin: 20px;
+//   text-align: center;
+//   border-radius: 30px;
+//   padding: 15px;
+// }
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  padding: 0;
+  color: white;
+  padding: 15px;
+  margin: 20px 40px 20px 40px;
+  background: radial-gradient(#444440, green, yellowgreen);
+  font-style: italic;
+  border-radius: 25px 0;
+  text-shadow: 1px 1px 2px yellowgreen, 0 0 1em yellowgreen,
+    0 0 0.9em yellowgreen;
+  // @media screen and (max-width: 885px) {
+  //   font-size: 25px;
+  // }
+}
+
+h2 {
+  // color: #353531;
+  color: white;
+
+  font-size: 35px;
+  // text-shadow: 1px 3px 1px yellowgreen;
+  padding: 15px;
+  margin: 0px 40px 0px 40px;
+  // background: radial-gradient(transparent, yellowgreen);
+  background: radial-gradient(#444440, green, yellowgreen);
+
+  font-style: italic;
+  border-radius: 25px 0;
+  @media screen and (max-width: 885px) {
+    font-size: 25px;
+  }
+}
+
+h3 {
+  // color: #353531;
+  color: white;
+
+  font-style: italic;
+
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 5px 5px 5px 0;
+  padding-top: 5px;
+  padding-left: 10px;
+  // background: radial-gradient(transparent, yellowgreen);
+  background: radial-gradient(#444440, green, yellowgreen);
+
+  font-style: italic;
+  border-radius: 25px 0;
+  padding: 10px;
+  @media screen and (max-width: 885px) {
+    font-size: 17px;
+  }
+}
+
+.card h3 {
+  color: white;
+}
+
+.imgordinature {
+  margin: 15px 5px 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 45%;
+  border-radius: 25px 0;
+  border: 5px yellowgreen solid;
+
+  @media screen and (max-width: 885px) {
+    width: 35%;
+    animation: 3s apparition;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+
+    width: 100%;
+  }
+}
+
+.subListeSites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 95%;
+  border-radius: 25px;
+}
+.listeSites {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 10px 10px 0;
+}
+.listeSites a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.listeSites .card {
+  background-color: $fondClair;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0 25px;
+  border: 5px $couleurPolice solid;
+  box-shadow: 0px 0px 8px 5px $cardShadow;
+  width: 360px;
+  min-width: 250px;
+  height: 350px;
+  @media screen and (max-width: 885px) {
+    width: 260px;
+    height: 320px;
+  }
+  & h3 {
+    background: radial-gradient(transparent, green, yellowgreen);
+  }
+  &:hover {
+    box-shadow: 0 0px 8px 10px $contour;
+  }
+  & img {
+    border-radius: 0 25px 0 0;
+    max-height: 59%;
+    @media screen and (max-width: 885px) {
+      height: 55%;
+    }
+  }
+  &_textCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30%;
+    background-color: $fondFonce;
+    padding: 1px 10px 20px 5px;
+    color: $couleurPolice;
+    border-radius: 0 25px;
+    @media screen and (max-width: 885px) {
+      height: 37%;
+    }
+    &_skills {
+      font-size: 12px;
+      color: $couleurPolice;
+      @media screen and (max-width: 885px) {
+        font-size: 10px;
+      }
+    }
+
+    & p {
+      font-weight: 600;
+      text-align: left;
+      padding-left: 10px;
+      margin: 5px 0 0 0;
+    }
+
+    & a {
+      color: $couleurPolice;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    & a:hover {
+      color: $couleurLienHover;
+      // background-color: rgba(245,245,245,0.5);
+    }
+  }
+}
+
+// debut liste design
+.listeDesign {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 10px 10px 0;
+}
+.listeDesign .lien_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.listeDesign .card {
+  background-color: $fondClair;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0 25px;
+  border: 5px $couleurPolice solid;
+  box-shadow: 0px 0px 8px 5px $cardShadow;
+  width: 360px;
+  min-width: 250px;
+  height: 650px;
+  @media screen and (max-width: 885px) {
+    width: 260px;
+    height: 420px;
+  }
+
+  &:hover {
+    box-shadow: 0 0px 8px 10px $contour;
+  }
+  & img {
+    border-radius: 0 25px 0 0;
+    max-height: 73%;
+    // @media screen and (max-width: 885px) {
+    //   height: 63%;
+    // }
+  }
+  &_img {
+    border-radius: 0 25px 0 0;
+    max-height: 73%;
+    // @media screen and (max-width: 885px) {
+    //   height: 63%;
+    // }
+  }
+
+  &_textCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 20%;
+    background-color: $fondFonce;
+    padding: 1px 10px 20px 5px;
+    color: $couleurPolice;
+    border-radius: 0 25px;
+    // @media screen and (max-width: 885px) {
+    //   height: 40%;
+    // }
+    &_skills {
+      font-size: 12px;
+      color: $couleurPolice;
+      // @media screen and (max-width: 885px) {
+      //   font-size: 12px;
+      // }
+    }
+
+    & p {
+      font-weight: 600;
+      text-align: left;
+      padding-left: 10px;
+      margin: 2px 0 0 0;
+    }
+
+    & h3 {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      margin: 5px 5px 0 0;
+      padding-top: 5px;
+      padding-left: 10px;
+      border-radius: 0 25px;
+      background: radial-gradient(transparent, green, yellowgreen);
+      @media screen and (max-width: 885px) {
+        font-size: 17px;
+      }
+    }
+
+    & a {
+      color: $couleurPolice;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    & a:hover {
+      color: $couleurLienHover;
+      // background-color: rgba(245,245,245,0.5);
+    }
+  }
+}
+// .card_textCard_moodboard {
+// }
+
+// fin liste design
+
+.titre {
+  font-size: 15px;
+}
+
+.lien {
+  margin-top: 20px;
+}
+.lien a {
+  color: $couleurPolice;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.pourCentrerTablette p {
+  font-size: 30px;
+}
+
+/* ligne d'information */
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-items: baseline;
+  width: 100%;
+}
+.iconInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  border-color: black;
+  height: 22px;
+  width: 22px;
+  margin: 5px;
+}
+.card i,
+.iconInfo i {
+  margin: 0%;
+  color: $couleurPolice;
+  font-size: 12px;
+}
+.info p {
+  width: 85%;
+  text-align: left;
+  font-size: 12px;
+}
+.OCR ul {
+  padding: 0;
+  margin: 0;
+}
+.OCR li {
+  margin-bottom: 10px;
+}
+.OCR a {
+  color: black;
+  text-shadow: 1px 1px $fondFonce;
+}
+.OCR a:hover {
+  color: $couleurLienHover;
+}
+.OCR a:focus {
+  color: $couleurLienHover;
+}

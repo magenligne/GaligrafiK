@@ -1,0 +1,27 @@
+@import "couleurs.scss";
+
+.retourhaut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 40px 0 60px 0;
+  background-color: $fonfFooterEtTxtCard;
+  box-shadow: 5px 10px 15px 3px rgb(90, 72, 60);
+  height: 30px;
+  border-radius: 15px;
+  font-size: 20px;
+
+  @media screen and (max-width: 885px) {
+    font-size: 15px;
+  }
+}
+.retourhaut:hover {
+  color: yellowgreen;
+}
+.retourhaut:active {
+  background-color: white;
+  color: yellowgreen;
+}
