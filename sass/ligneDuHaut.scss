@@ -1,6 +1,9 @@
 // @import "menuHamburger.scss";
 @import "couleurs.scss";
+@import "police.scss";
+
 .ligneDuHaut {
+  font-family: "hello", "PoliceGenerale", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

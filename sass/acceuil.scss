@@ -7,7 +7,7 @@
 
 // @import "menuHamburger.scss";
 body {
-  font-family: sans-serif, PoliceGenerale, Arial, Helvetica;
+  font-family: "PoliceGenerale", sans-serif, PoliceGenerale, Arial, Helvetica;
   max-width: 1700px;
   margin: auto;
   background-color: $fondClair;
@@ -52,15 +52,24 @@ header {
 //   border-radius: 30px;
 //   padding: 15px;
 // }
+// h1,
+// h2 {
+//   font-family: "hello", sans-serif;
+// }
+
+h1,
+h2 {
+  font-family: "hello", "PoliceGenerale", sans-serif;
+}
 
 h1 {
   text-align: center;
-  font-style: italic;
+  // font-style: italic;
   padding: 0;
-  color: white;
+  color: $fondFonce;
   padding: 15px;
   margin: 20px 40px 20px 40px;
-  background: radial-gradient(#444440, green, yellowgreen);
+  // background: radial-gradient(#444440, green, yellowgreen);
   font-style: italic;
   border-radius: 25px 0;
   text-shadow: 1px 1px 2px yellowgreen, 0 0 1em yellowgreen,

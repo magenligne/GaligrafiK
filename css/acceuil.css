@@ -4,7 +4,20 @@
   font-family: PoliceGenerale;
   src: url("/Raleway/Raleway-Italic-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: "hello";
+  src: url("/hello/Hello.ttf");
+}
+@font-face {
+  font-family: PoliceGenerale;
+  src: url("/Raleway/Raleway-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "hello";
+  src: url("/hello/Hello.ttf");
+}
 .ligneDuHaut {
+  font-family: "hello", "PoliceGenerale", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -162,7 +175,7 @@ footer {
 }
 
 body {
-  font-family: sans-serif, PoliceGenerale, Arial, Helvetica;
+  font-family: "PoliceGenerale", sans-serif, PoliceGenerale, Arial, Helvetica;
   max-width: 1700px;
   margin: auto;
   background-color: white;
@@ -198,14 +211,17 @@ header {
   width: 100%;
 }
 
+h1,
+h2 {
+  font-family: "hello", "PoliceGenerale", sans-serif;
+}
+
 h1 {
   text-align: center;
-  font-style: italic;
   padding: 0;
-  color: white;
+  color: #444440;
   padding: 15px;
   margin: 20px 40px 20px 40px;
-  background: radial-gradient(#444440, green, yellowgreen);
   font-style: italic;
   border-radius: 25px 0;
   text-shadow: 1px 1px 2px yellowgreen, 0 0 1em yellowgreen, 0 0 0.9em yellowgreen;
