@@ -1,13 +1,5 @@
-@font-face {
-  font-family: PoliceGenerale;
-  src: url("/Raleway/Raleway-Italic-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: "hello";
-  src: url("/hello/Hello.ttf");
-}
 .ligneDuHaut {
-  font-family: "hello", "PoliceGenerale", sans-serif;
+  font-family: "Satisfy", cursive;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
