@@ -229,8 +229,9 @@ h2 {
   box-shadow: 0px 0px 8px 5px yellowgreen;
   font-size: 35px;
   padding: 15px;
-  margin: 0px 40px 20px 40px;
+  margin: 0px 0 20px 0;
   background: radial-gradient(#444440, green, yellowgreen);
+  text-align: center;
   font-style: italic;
   border-radius: 25px 0;
 }
@@ -530,7 +531,16 @@ h3 {
 
 .h3OCR {
   font-weight: bold;
-  margin: 20px 5px 5px 5px;
+  margin: 20px 0 15px 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 885px) {
+  .h3OCR {
+    width: 90%;
+  }
 }
 
 .OCR ul {
@@ -563,4 +573,20 @@ h3 {
 
 .lienPDF {
   margin: 5px;
+}
+
+.CV {
+  width: 90%;
+  margin-top: 50px;
+}
+.CV h2 {
+  padding: 3px;
+}
+@media screen and (max-width: 885px) {
+  .CV h2 {
+    font-size: 20px;
+  }
+}
+.CV img {
+  width: 100%;
 }/*# sourceMappingURL=acceuil.css.map */
