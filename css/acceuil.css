@@ -17,6 +17,11 @@
   padding: 0%;
   width: 85%;
 }
+@media screen and (max-width: 885px) {
+  .ligneDuHaut_menuDuHaut {
+    flex-direction: column;
+  }
+}
 .ligneDuHaut_menuDuHaut li {
   display: flex;
   flex-direction: center;
@@ -25,8 +30,8 @@
 }
 @media screen and (max-width: 885px) {
   .ligneDuHaut_menuDuHaut li {
-    margin: 5px;
-    width: 27%;
+    margin: 10px;
+    width: 67%;
   }
 }
 .ligneDuHaut_menuDuHaut a {
@@ -44,13 +49,14 @@
   border-radius: 40px 0 40px 0;
   border: 3px solid yellowgreen;
   text-shadow: 1px 1px 1px #444440;
-  background: radial-gradient(white, #444440);
+  background: radial-gradient(white 30%, transparent);
   box-shadow: 0px 0px 8px 5px #444440;
 }
 @media screen and (max-width: 885px) {
   .ligneDuHaut_menuDuHaut a {
-    font-size: 16px;
-    width: 60%;
+    font-size: 20px;
+    height: 10px;
+    width: 100%;
   }
 }
 .ligneDuHaut_menuDuHaut a:hover {
@@ -76,6 +82,7 @@
   height: 30px;
   border-radius: 15px;
   font-size: 20px;
+  max-width: 60%;
 }
 @media screen and (max-width: 885px) {
   .retourhaut {
@@ -106,6 +113,7 @@
   height: 30px;
   border-radius: 15px;
   font-size: 20px;
+  max-width: 60%;
 }
 @media screen and (max-width: 885px) {
   .retourhaut {
@@ -212,15 +220,16 @@ h1 {
 }
 @media screen and (max-width: 885px) {
   h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
 h2 {
   color: white;
+  box-shadow: 0px 0px 8px 5px yellowgreen;
   font-size: 35px;
   padding: 15px;
-  margin: 0px 40px 0px 40px;
+  margin: 0px 40px 20px 40px;
   background: radial-gradient(#444440, green, yellowgreen);
   font-style: italic;
   border-radius: 25px 0;
@@ -240,7 +249,8 @@ h3 {
   margin: -20px 5px 5px 0;
   padding-top: 5px;
   padding-left: 10px;
-  background: radial-gradient(#444440, green, yellowgreen);
+  background: radial-gradient(rgb(88, 86, 86), green, yellowgreen);
+  height: 32px;
   font-style: italic;
   border-radius: 25px 0;
   padding: 10px;
@@ -249,10 +259,6 @@ h3 {
   h3 {
     font-size: 17px;
   }
-}
-
-.card h3 {
-  color: white;
 }
 
 .imgordinature {
@@ -322,7 +328,7 @@ h3 {
   }
 }
 .listeSites .card h3 {
-  background: radial-gradient(transparent, green, yellowgreen);
+  background: radial-gradient(#444440, green, yellowgreen);
 }
 .listeSites .card:hover {
   box-shadow: 0 0px 8px 10px yellowgreen;
@@ -447,11 +453,12 @@ h3 {
   display: flex;
   align-items: center;
   font-size: 20px;
-  margin: -20px 5px 0 0;
+  margin: -40px 5px 0 0;
   padding-top: 5px;
   padding-left: 10px;
-  border-radius: 0 25px;
-  background: radial-gradient(transparent, green, yellowgreen);
+  border-radius: 25px 0;
+  background: radial-gradient(rgb(88, 83, 83), green, yellowgreen);
+  height: 52px;
 }
 @media screen and (max-width: 885px) {
   .listeDesign .card_textCard h3 {
@@ -491,7 +498,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
   margin-bottom: 15px;
 }
 
@@ -503,7 +510,7 @@ h3 {
   background-color: black;
   border-color: black;
   height: 22px;
-  width: 22px;
+  width: 20px;
   margin: 5px;
 }
 
@@ -518,15 +525,18 @@ h3 {
   text-align: left;
   font-size: 10px;
   font-weight: bold;
+  width: 80%;
 }
 
 .h3OCR {
+  font-weight: bold;
   margin: 20px 5px 5px 5px;
 }
 
 .OCR ul {
   padding: 0;
   margin: 0;
+  width: 95%;
 }
 
 .OCR li {

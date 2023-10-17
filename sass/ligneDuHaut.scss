@@ -20,9 +20,9 @@
     align-items: center;
     padding: 0%;
     width: 85%;
-    // @media screen and (max-width: 885px) {
-    //   justify-content: space-around;
-    // }
+    @media screen and (max-width: 885px) {
+      flex-direction: column;
+    }
   }
   &_menuDuHaut li {
     display: flex;
@@ -30,8 +30,8 @@
     justify-content: center;
     margin: 10px;
     @media screen and (max-width: 885px) {
-      margin: 5px;
-      width: 27%;
+      margin: 10px;
+      width: 67%;
     }
   }
   &_menuDuHaut a {
@@ -50,11 +50,12 @@
     border: 3px solid $couleurLienHover;
     text-shadow: 1px 1px 1px $fondFonce;
     // background-color: $fonfFooterEtTxtCard;
-    background: radial-gradient(white, $fondFonce);
+    background: radial-gradient(white 30%, transparent);
     box-shadow: 0px 0px 8px 5px $cardShadow;
     @media screen and (max-width: 885px) {
-      font-size: 16px;
-      width: 60%;
+      font-size: 20px;
+      height: 10px;
+      width: 100%;
     }
   }
   &_menuDuHaut a:hover {
@@ -68,12 +69,3 @@
     box-shadow: 0px 0px 8px 5px $couleurLienHover;
   }
 }
-// .banniere {
-//   margin-top: 40px;
-//   border-radius: 40px 10px 40px 10px;
-//   border: 3px solid $fonfFooterEtTxtCard;
-//   width: 70%;
-//   @media screen and (max-width: 885px) {
-//     width: 85%;
-//   }
-// }

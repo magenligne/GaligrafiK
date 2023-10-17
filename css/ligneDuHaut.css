@@ -15,6 +15,11 @@
   padding: 0%;
   width: 85%;
 }
+@media screen and (max-width: 885px) {
+  .ligneDuHaut_menuDuHaut {
+    flex-direction: column;
+  }
+}
 .ligneDuHaut_menuDuHaut li {
   display: flex;
   flex-direction: center;
@@ -23,8 +28,8 @@
 }
 @media screen and (max-width: 885px) {
   .ligneDuHaut_menuDuHaut li {
-    margin: 5px;
-    width: 27%;
+    margin: 10px;
+    width: 67%;
   }
 }
 .ligneDuHaut_menuDuHaut a {
@@ -42,13 +47,14 @@
   border-radius: 40px 0 40px 0;
   border: 3px solid yellowgreen;
   text-shadow: 1px 1px 1px #444440;
-  background: radial-gradient(white, #444440);
+  background: radial-gradient(white 30%, transparent);
   box-shadow: 0px 0px 8px 5px #444440;
 }
 @media screen and (max-width: 885px) {
   .ligneDuHaut_menuDuHaut a {
-    font-size: 16px;
-    width: 60%;
+    font-size: 20px;
+    height: 10px;
+    width: 100%;
   }
 }
 .ligneDuHaut_menuDuHaut a:hover {
