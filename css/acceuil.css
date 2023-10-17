@@ -41,7 +41,7 @@
   font-style: italic;
   width: 150px;
   padding: 15px;
-  border-radius: 40px 10px 40px 10px;
+  border-radius: 40px 0 40px 0;
   border: 3px solid yellowgreen;
   text-shadow: 1px 1px 1px #444440;
   background: radial-gradient(white, #444440);
@@ -382,7 +382,7 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 10px 10px 10px 0;
+  margin: 10px 10px 30px 0;
 }
 
 .listeDesign .lien_card {
@@ -517,6 +517,11 @@ h3 {
 .info p {
   text-align: left;
   font-size: 10px;
+  font-weight: bold;
+}
+
+.h3OCR {
+  margin: 20px 5px 5px 5px;
 }
 
 .OCR ul {
@@ -529,8 +534,13 @@ h3 {
 }
 
 .OCR a {
+  font-weight: bold;
   color: black;
-  text-shadow: 1px 1px #444440;
+}
+@media screen and (max-width: 885px) {
+  .OCR a {
+    font-size: 12px;
+  }
 }
 
 .OCR a:hover {
