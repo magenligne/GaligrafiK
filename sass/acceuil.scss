@@ -10,7 +10,7 @@ body {
   font-family: "Roboto", sans-serif, Arial, Helvetica;
   max-width: 1700px;
   margin: auto;
-  background-color: $fondClair;
+  // background-color: $fondClair;
 }
 #bloc {
   display: flex;
@@ -54,11 +54,10 @@ h1 {
   color: $fondFonce;
   padding: 15px;
   margin: 20px 40px 20px 40px;
-  // background: radial-gradient(#444440, green, yellowgreen);
+  // background: radial-gradient(#444440, grey, grey);
   font-style: italic;
   border-radius: 25px 0;
-  text-shadow: 1px 1px 2px yellowgreen, 0 0 1em yellowgreen,
-    0 0 0.9em yellowgreen;
+  // text-shadow: 1px 1px 2px grey, 0 0 1em grey, 0 0 0.9em grey;
   @media screen and (max-width: 885px) {
     font-size: 25px;
   }
@@ -66,14 +65,14 @@ h1 {
 
 h2 {
   // color: #353531;
-  color: white;
-  box-shadow: 0px 0px 8px 5px yellowgreen;
+  // color: white;
+  // box-shadow: 0px 0px 8px 5px grey;
   font-size: 35px;
-  // text-shadow: 1px 3px 1px yellowgreen;
+  // text-shadow: 1px 3px 1px grey;
   padding: 15px;
   margin: 0px 0 20px 0;
-  // background: radial-gradient(transparent, yellowgreen);
-  background: radial-gradient(#444440, green, yellowgreen);
+  // background: radial-gradient(transparent, grey);
+  // background: radial-gradient(#444440, grey, grey);
   text-align: center;
   font-style: italic;
   border-radius: 25px 0;
@@ -84,7 +83,7 @@ h2 {
 
 h3 {
   // color: #353531;
-  color: white;
+  // color: white;
 
   font-style: italic;
 
@@ -94,8 +93,8 @@ h3 {
   margin: -20px 5px 5px 0;
   padding-top: 5px;
   padding-left: 10px;
-  // background: radial-gradient(transparent, yellowgreen);
-  background: radial-gradient(rgb(88, 86, 86), green, yellowgreen);
+  // background: radial-gradient(transparent, grey);
+  // background: radial-gradient(rgb(88, 86, 86), grey, grey);
   height: 32px;
   font-style: italic;
   border-radius: 25px 0;
@@ -118,7 +117,7 @@ h3 {
   color: black;
   width: 45%;
   border-radius: 25px 0;
-  border: 5px yellowgreen solid;
+  border: 5px grey solid;
 
   @media screen and (max-width: 885px) {
     width: 35%;
@@ -170,7 +169,7 @@ h3 {
     height: 320px;
   }
   & h3 {
-    background: radial-gradient(#444440, green, yellowgreen);
+    background: radial-gradient(#444440, grey, grey);
   }
   &:hover {
     box-shadow: 0 0px 8px 10px $contour;
@@ -309,7 +308,7 @@ h3 {
       padding-top: 5px;
       padding-left: 10px;
       border-radius: 25px 0;
-      background: radial-gradient(rgb(88, 83, 83), green, yellowgreen);
+      background: radial-gradient(rgb(88, 83, 83), grey, grey);
       height: 52px;
       @media screen and (max-width: 885px) {
         font-size: 17px;
@@ -411,9 +410,9 @@ h3 {
 .OCR a:hover {
   color: $couleurLienHover;
 }
-.OCR a:focus {
-  color: $couleurLienHover;
-}
+// .OCR a:focus {
+//   color: $couleurLienHover;
+// }
 
 .lienPDF {
   margin: 5px;

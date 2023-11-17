@@ -9,11 +9,11 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background: linear-gradient(to bottom, white, transparent, white),
-    url("../images/ordiNature.jpg");
+  background-color: grey;
+  // background: linear-gradient(to bottom, white, grey, white);
   //url("../images/ordiNature.jpg");
   // linear-gradient($fondFonce, $fondClair);
-  height: 180px;
+  // height: 180px;
   &_menuDuHaut {
     display: flex;
     justify-content: space-around;
@@ -50,7 +50,8 @@
     border: 3px solid $couleurLienHover;
     text-shadow: 1px 1px 1px $fondFonce;
     // background-color: $fonfFooterEtTxtCard;
-    background: radial-gradient(white 30%, transparent);
+    background-color: white;
+    // background: radial-gradient(white 30%, transparent);
     box-shadow: 0px 0px 8px 5px $cardShadow;
     @media screen and (max-width: 885px) {
       font-size: 20px;

@@ -7,7 +7,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background: linear-gradient(to bottom, white, transparent, white), url("../images/ordiNature.jpg");
+  background-color: grey;
   height: 180px;
 }
 .ligneDuHaut_menuDuHaut {
@@ -47,9 +47,9 @@
   width: 150px;
   padding: 15px;
   border-radius: 40px 0 40px 0;
-  border: 3px solid yellowgreen;
+  border: 3px solid grey;
   text-shadow: 1px 1px 1px #444440;
-  background: radial-gradient(white 30%, transparent);
+  background-color: white;
   box-shadow: 0px 0px 8px 5px #444440;
 }
 @media screen and (max-width: 885px) {
@@ -60,13 +60,13 @@
   }
 }
 .ligneDuHaut_menuDuHaut a:hover {
-  color: yellowgreen;
-  box-shadow: 0px 0px 10px 5px yellowgreen;
+  color: grey;
+  box-shadow: 0px 0px 10px 5px grey;
 }
 .ligneDuHaut_menuDuHaut a:active {
   background-color: white;
-  color: yellowgreen;
-  box-shadow: 0px 0px 8px 5px yellowgreen;
+  color: grey;
+  box-shadow: 0px 0px 8px 5px grey;
 }
 
 .retourhaut {
@@ -155,7 +155,7 @@ footer {
   font-weight: 700;
 }
 .footer_piedDePage a:hover {
-  color: yellowgreen;
+  color: grey;
 }
 .footer_piedDePage i {
   font-size: 50px;
@@ -170,7 +170,6 @@ body {
   font-family: "Roboto", sans-serif, Arial, Helvetica;
   max-width: 1700px;
   margin: auto;
-  background-color: white;
 }
 
 #bloc {
@@ -216,7 +215,6 @@ h1 {
   margin: 20px 40px 20px 40px;
   font-style: italic;
   border-radius: 25px 0;
-  text-shadow: 1px 1px 2px yellowgreen, 0 0 1em yellowgreen, 0 0 0.9em yellowgreen;
 }
 @media screen and (max-width: 885px) {
   h1 {
@@ -225,12 +223,9 @@ h1 {
 }
 
 h2 {
-  color: white;
-  box-shadow: 0px 0px 8px 5px yellowgreen;
   font-size: 35px;
   padding: 15px;
   margin: 0px 0 20px 0;
-  background: radial-gradient(#444440, green, yellowgreen);
   text-align: center;
   font-style: italic;
   border-radius: 25px 0;
@@ -242,7 +237,6 @@ h2 {
 }
 
 h3 {
-  color: white;
   font-style: italic;
   display: flex;
   align-items: center;
@@ -250,7 +244,6 @@ h3 {
   margin: -20px 5px 5px 0;
   padding-top: 5px;
   padding-left: 10px;
-  background: radial-gradient(rgb(88, 86, 86), green, yellowgreen);
   height: 32px;
   font-style: italic;
   border-radius: 25px 0;
@@ -271,7 +264,7 @@ h3 {
   color: black;
   width: 45%;
   border-radius: 25px 0;
-  border: 5px yellowgreen solid;
+  border: 5px grey solid;
 }
 @media screen and (max-width: 885px) {
   .imgordinature {
@@ -329,10 +322,10 @@ h3 {
   }
 }
 .listeSites .card h3 {
-  background: radial-gradient(#444440, green, yellowgreen);
+  background: radial-gradient(#444440, grey, grey);
 }
 .listeSites .card:hover {
-  box-shadow: 0 0px 8px 10px yellowgreen;
+  box-shadow: 0 0px 8px 10px grey;
 }
 .listeSites .card img {
   border-radius: 0 25px 0 0;
@@ -380,7 +373,7 @@ h3 {
   font-weight: 700;
 }
 .listeSites .card_textCard a:hover {
-  color: yellowgreen;
+  color: grey;
 }
 
 .listeDesign {
@@ -419,7 +412,7 @@ h3 {
   }
 }
 .listeDesign .card:hover {
-  box-shadow: 0 0px 8px 10px yellowgreen;
+  box-shadow: 0 0px 8px 10px grey;
 }
 .listeDesign .card img {
   border-radius: 0 25px 0 0;
@@ -458,7 +451,7 @@ h3 {
   padding-top: 5px;
   padding-left: 10px;
   border-radius: 25px 0;
-  background: radial-gradient(rgb(88, 83, 83), green, yellowgreen);
+  background: radial-gradient(rgb(88, 83, 83), grey, grey);
   height: 52px;
 }
 @media screen and (max-width: 885px) {
@@ -472,7 +465,7 @@ h3 {
   font-weight: 700;
 }
 .listeDesign .card_textCard a:hover {
-  color: yellowgreen;
+  color: grey;
 }
 
 .titre {
@@ -564,11 +557,7 @@ h3 {
 }
 
 .OCR a:hover {
-  color: yellowgreen;
-}
-
-.OCR a:focus {
-  color: yellowgreen;
+  color: grey;
 }
 
 .lienPDF {
