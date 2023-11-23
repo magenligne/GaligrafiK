@@ -43,8 +43,12 @@ header {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Satisfy", cursive;
+}
+h3 {
+  font-weight: lighter;
 }
 
 h1 {
@@ -90,7 +94,7 @@ h3 {
   display: flex;
   align-items: center;
   font-size: 20px;
-  margin: -20px 5px 5px 0;
+  margin: 5px 5px 5px 0;
   padding-top: 5px;
   padding-left: 10px;
   // background: radial-gradient(transparent, grey);
@@ -169,7 +173,7 @@ h3 {
     height: 320px;
   }
   & h3 {
-    background: radial-gradient(#444440, grey, grey);
+    // background: radial-gradient(#444440, grey, grey);
   }
   &:hover {
     box-shadow: 0 0px 8px 10px $contour;
@@ -189,8 +193,9 @@ h3 {
     height: 30%;
     background-color: $fondFonce;
     padding: 1px 10px 20px 5px;
+    margin-top: 5px;
     color: $couleurPolice;
-    border-radius: 0 25px;
+    border-radius: 0 0 0 25px;
     @media screen and (max-width: 885px) {
       height: 37%;
     }
@@ -248,10 +253,10 @@ h3 {
   box-shadow: 0px 0px 8px 5px $cardShadow;
   width: 360px;
   min-width: 250px;
-  height: 650px;
+  // height: 650px;
   @media screen and (max-width: 885px) {
     width: 260px;
-    height: 500px;
+    // height: 500px;
   }
 
   &:hover {
@@ -281,7 +286,8 @@ h3 {
     background-color: $fondFonce;
     padding: 1px 10px 20px 5px;
     color: $couleurPolice;
-    border-radius: 0 25px;
+    border-radius: 0 0 0 25px;
+    margin-top: 5px;
     // @media screen and (max-width: 885px) {
     //   height: 40%;
     // }
@@ -304,11 +310,11 @@ h3 {
       display: flex;
       align-items: center;
       font-size: 20px;
-      margin: -40px 5px 0 0;
+      margin: 5px 5px 0 0;
       padding-top: 5px;
       padding-left: 10px;
       border-radius: 25px 0;
-      background: radial-gradient(rgb(88, 83, 83), grey, grey);
+      // background: radial-gradient(rgb(88, 83, 83), grey, grey);
       height: 52px;
       @media screen and (max-width: 885px) {
         font-size: 17px;
