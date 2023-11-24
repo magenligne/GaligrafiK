@@ -7,7 +7,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: #e6e5e5;
+  background-color: #92c0f0;
 }
 .ligneDuHaut_menuDuHaut {
   display: flex;
@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #444440;
+  color: #5392c8;
   font-weight: 500;
   font-size: 25px;
   text-align: center;
@@ -47,7 +47,7 @@
   padding: 15px;
   border-radius: 40px 0 40px 0;
   border: 3px solid grey;
-  text-shadow: 1px 1px 1px #444440;
+  text-shadow: 1px 1px 1px #5392c8;
   background-color: white;
   box-shadow: 0px 0px 8px 5px #ababa7;
 }
@@ -73,11 +73,11 @@
   justify-content: center;
   align-items: center;
   padding: 17px;
-  color: whitesmoke;
+  color: white;
   font-weight: bold;
   margin: 40px 0 60px 0;
-  background-color: #444440;
-  box-shadow: 5px 10px 15px 3px rgb(90, 72, 60);
+  background-color: #5392c8;
+  box-shadow: 0px 0px 8px 5px #ababa7;
   height: 30px;
   border-radius: 15px;
   font-size: 20px;
@@ -104,11 +104,11 @@
   justify-content: center;
   align-items: center;
   padding: 17px;
-  color: whitesmoke;
+  color: white;
   font-weight: bold;
   margin: 40px 0 60px 0;
-  background-color: #444440;
-  box-shadow: 5px 10px 15px 3px rgb(90, 72, 60);
+  background-color: #5392c8;
+  box-shadow: 0px 0px 8px 5px #ababa7;
   height: 30px;
   border-radius: 15px;
   font-size: 20px;
@@ -136,7 +136,7 @@ footer {
 .footer {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(white, #444440);
+  background: linear-gradient(#c4e7f2, #5392c8);
   height: 500px;
 }
 .footer_piedDePage ul {
@@ -158,7 +158,7 @@ footer {
 }
 .footer_piedDePage i {
   font-size: 50px;
-  color: #444440;
+  color: #5392c8;
 }
 .footer_piedDePage_pourflex {
   display: flex;
@@ -214,7 +214,7 @@ h3 {
 h1 {
   text-align: center;
   padding: 0;
-  color: #444440;
+  color: #5392c8;
   padding: 15px;
   margin: 20px 40px 20px 40px;
   font-style: italic;
@@ -308,7 +308,7 @@ h3 {
 }
 
 .listeSites .card {
-  background-color: white;
+  background-color: #c4e7f2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -343,11 +343,11 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   height: 30%;
-  background-color: #444440;
+  background-color: #5392c8;
   padding: 1px 10px 20px 5px;
   margin-top: 5px;
   color: white;
-  border-radius: 0 25px;
+  border-radius: 0 0 0 25px;
 }
 @media screen and (max-width: 885px) {
   .listeSites .card_textCard {
@@ -396,7 +396,7 @@ h3 {
 }
 
 .listeDesign .card {
-  background-color: white;
+  background-color: #c4e7f2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -428,10 +428,10 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   height: 20%;
-  background-color: #444440;
+  background-color: #5392c8;
   padding: 1px 10px 20px 5px;
   color: white;
-  border-radius: 0 25px;
+  border-radius: 0 0 0 25px;
   margin-top: 5px;
 }
 .listeDesign .card_textCard_skills {

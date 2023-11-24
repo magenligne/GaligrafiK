@@ -4,11 +4,11 @@
   justify-content: center;
   align-items: center;
   padding: 17px;
-  color: whitesmoke;
+  color: white;
   font-weight: bold;
   margin: 40px 0 60px 0;
-  background-color: #444440;
-  box-shadow: 5px 10px 15px 3px rgb(90, 72, 60);
+  background-color: #5392c8;
+  box-shadow: 0px 0px 8px 5px #ababa7;
   height: 30px;
   border-radius: 15px;
   font-size: 20px;
@@ -36,7 +36,7 @@ footer {
 .footer {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(white, #444440);
+  background: linear-gradient(#c4e7f2, #5392c8);
   height: 500px;
 }
 .footer_piedDePage ul {
@@ -58,7 +58,7 @@ footer {
 }
 .footer_piedDePage i {
   font-size: 50px;
-  color: #444440;
+  color: #5392c8;
 }
 .footer_piedDePage_pourflex {
   display: flex;
