@@ -7,7 +7,7 @@
   color: white;
   font-weight: bold;
   margin: 40px 0 60px 0;
-  background-color: #5392c8;
+  background-color: #10406a;
   box-shadow: 0px 0px 8px 5px #ababa7;
   height: 30px;
   border-radius: 15px;
@@ -36,7 +36,7 @@ footer {
 .footer {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(#c4e7f2, #5392c8);
+  background: linear-gradient(#c4e7f2, #10406a);
   height: 500px;
 }
 .footer_piedDePage ul {
@@ -58,7 +58,7 @@ footer {
 }
 .footer_piedDePage i {
   font-size: 50px;
-  color: #5392c8;
+  color: #10406a;
 }
 .footer_piedDePage_pourflex {
   display: flex;

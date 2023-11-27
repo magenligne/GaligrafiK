@@ -9,7 +9,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: $bandeauHaut;
+  // background-color: $bandeauHaut;
   // background: linear-gradient(to bottom, white, grey, white);
   //url("../images/ordiNature.jpg");
   // linear-gradient($fondFonce, $fondClair);
@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $fondFonce;
+    color: $couleurPolice;
     font-weight: 500;
     font-size: 25px;
     text-align: center;
@@ -48,7 +48,7 @@
     padding: 15px;
     border-radius: 40px 0 40px 0;
     border: 3px solid $couleurLienHover;
-    text-shadow: 1px 1px 1px $fondFonce;
+    // text-shadow: 1px 1px 1px $fondFonce;
     // background-color: $fonfFooterEtTxtCard;
     background-color: white;
     // background: radial-gradient(white 30%, transparent);

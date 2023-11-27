@@ -7,7 +7,6 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: #92c0f0;
 }
 .ligneDuHaut_menuDuHaut {
   display: flex;
@@ -37,7 +36,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #5392c8;
+  color: black;
   font-weight: 500;
   font-size: 25px;
   text-align: center;
@@ -47,7 +46,6 @@
   padding: 15px;
   border-radius: 40px 0 40px 0;
   border: 3px solid grey;
-  text-shadow: 1px 1px 1px #5392c8;
   background-color: white;
   box-shadow: 0px 0px 8px 5px #ababa7;
 }
@@ -76,7 +74,7 @@
   color: white;
   font-weight: bold;
   margin: 40px 0 60px 0;
-  background-color: #5392c8;
+  background-color: #10406a;
   box-shadow: 0px 0px 8px 5px #ababa7;
   height: 30px;
   border-radius: 15px;
@@ -107,7 +105,7 @@
   color: white;
   font-weight: bold;
   margin: 40px 0 60px 0;
-  background-color: #5392c8;
+  background-color: #10406a;
   box-shadow: 0px 0px 8px 5px #ababa7;
   height: 30px;
   border-radius: 15px;
@@ -136,7 +134,7 @@ footer {
 .footer {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(#c4e7f2, #5392c8);
+  background: linear-gradient(#c4e7f2, #10406a);
   height: 500px;
 }
 .footer_piedDePage ul {
@@ -158,7 +156,7 @@ footer {
 }
 .footer_piedDePage i {
   font-size: 50px;
-  color: #5392c8;
+  color: #10406a;
 }
 .footer_piedDePage_pourflex {
   display: flex;
@@ -166,7 +164,7 @@ footer {
 }
 
 body {
-  font-family: "Roboto", sans-serif, Arial, Helvetica;
+  font-family: "Advent Pro", sans-serif, Arial, Helvetica;
   max-width: 1700px;
   margin: auto;
 }
@@ -189,6 +187,7 @@ a {
 /*HEADER*/
 header {
   width: 100%;
+  background: linear-gradient(#10406a, #c4e7f2, white);
 }
 
 /*SECTION corps*/
@@ -214,7 +213,7 @@ h3 {
 h1 {
   text-align: center;
   padding: 0;
-  color: #5392c8;
+  color: black;
   padding: 15px;
   margin: 20px 40px 20px 40px;
   font-style: italic;
@@ -227,6 +226,7 @@ h1 {
 }
 
 h2 {
+  color: black;
   font-size: 35px;
   padding: 15px;
   margin: 0px 0 20px 0;
@@ -241,6 +241,7 @@ h2 {
 }
 
 h3 {
+  color: black;
   font-style: italic;
   display: flex;
   align-items: center;
@@ -313,7 +314,7 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 0 25px;
-  border: 5px white solid;
+  border: 5px black solid;
   box-shadow: 0px 0px 8px 5px #ababa7;
   width: 360px;
   min-width: 250px;
@@ -343,10 +344,9 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   height: 30%;
-  background-color: #5392c8;
   padding: 1px 10px 20px 5px;
   margin-top: 5px;
-  color: white;
+  color: black;
   border-radius: 0 0 0 25px;
 }
 @media screen and (max-width: 885px) {
@@ -356,7 +356,7 @@ h3 {
 }
 .listeSites .card_textCard_skills {
   font-size: 12px;
-  color: white;
+  color: black;
 }
 @media screen and (max-width: 885px) {
   .listeSites .card_textCard_skills {
@@ -370,7 +370,7 @@ h3 {
   margin: 5px 0 0 0;
 }
 .listeSites .card_textCard a {
-  color: white;
+  color: black;
   font-size: 14px;
   font-weight: 700;
 }
@@ -401,7 +401,7 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 0 25px;
-  border: 5px white solid;
+  border: 5px black solid;
   box-shadow: 0px 0px 8px 5px #ababa7;
   width: 360px;
   min-width: 250px;
@@ -428,15 +428,14 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   height: 20%;
-  background-color: #5392c8;
   padding: 1px 10px 20px 5px;
-  color: white;
+  color: black;
   border-radius: 0 0 0 25px;
   margin-top: 5px;
 }
 .listeDesign .card_textCard_skills {
   font-size: 12px;
-  color: white;
+  color: black;
 }
 .listeDesign .card_textCard p {
   font-weight: 600;
@@ -460,7 +459,7 @@ h3 {
   }
 }
 .listeDesign .card_textCard a {
-  color: white;
+  color: black;
   font-size: 14px;
   font-weight: 700;
 }
@@ -477,7 +476,7 @@ h3 {
 }
 
 .lien a {
-  color: white;
+  color: black;
   font-weight: bold;
   margin-top: 10px;
   margin-left: 20px;
@@ -511,7 +510,7 @@ h3 {
 .card i,
 .iconInfo i {
   margin: 0%;
-  color: white;
+  color: black;
   font-size: 12px;
 }
 

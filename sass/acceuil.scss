@@ -7,7 +7,7 @@
 
 // @import "menuHamburger.scss";
 body {
-  font-family: "Roboto", sans-serif, Arial, Helvetica;
+  font-family: "Advent Pro", sans-serif, Arial, Helvetica;
   max-width: 1700px;
   margin: auto;
   // background-color: $fondClair;
@@ -29,6 +29,8 @@ a {
 /*HEADER*/
 header {
   width: 100%;
+  // background-color: $bandeauHaut;
+  background: linear-gradient($fondFonce, $fondClair, white);
 }
 
 /*SECTION corps*/
@@ -55,7 +57,7 @@ h1 {
   text-align: center;
   // font-style: italic;
   padding: 0;
-  color: $fondFonce;
+  color: $couleurPolice;
   padding: 15px;
   margin: 20px 40px 20px 40px;
   // background: radial-gradient(#444440, grey, grey);
@@ -69,7 +71,7 @@ h1 {
 
 h2 {
   // color: #353531;
-  // color: white;
+  color: $couleurPolice;
   // box-shadow: 0px 0px 8px 5px grey;
   font-size: 35px;
   // text-shadow: 1px 3px 1px grey;
@@ -88,6 +90,7 @@ h2 {
 h3 {
   // color: #353531;
   // color: white;
+  color: $couleurPolice;
 
   font-style: italic;
 
@@ -191,7 +194,7 @@ h3 {
     justify-content: center;
     align-items: flex-start;
     height: 30%;
-    background-color: $fondFonce;
+    // background-color: $fondFonce;
     padding: 1px 10px 20px 5px;
     margin-top: 5px;
     color: $couleurPolice;
@@ -283,7 +286,7 @@ h3 {
     justify-content: center;
     align-items: flex-start;
     height: 20%;
-    background-color: $fondFonce;
+    // background-color: $fondFonce;
     padding: 1px 10px 20px 5px;
     color: $couleurPolice;
     border-radius: 0 0 0 25px;
@@ -408,7 +411,7 @@ h3 {
 }
 .OCR a {
   font-weight: bold;
-  color: black;
+  color: $couleurPolice;
   @media screen and (max-width: 885px) {
     font-size: 12px;
   }
