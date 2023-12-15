@@ -30,7 +30,7 @@ a {
 header {
   width: 100%;
   // background-color: $bandeauHaut;
-  background: linear-gradient($fondFonce, $fondClair, white);
+  // background: linear-gradient($fondFonce, $fondClair, white);
 }
 
 /*SECTION corps*/
@@ -234,7 +234,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   flex-wrap: wrap;
   margin: 10px 10px 30px 0;
 }
@@ -381,7 +381,7 @@ h3 {
 .card i,
 .iconInfo i {
   margin: 0%;
-  color: $couleurPolice;
+  color: whitesmoke;
   font-size: 12px;
 }
 .info p {
