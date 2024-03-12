@@ -7,8 +7,10 @@ footer {
 .footer {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient($fondClair, $fondFonce);
-  height: 500px;
+  // background: linear-gradient($fondClair, $fondFonce);
+  background-color: $fondClair;
+  align-items: center;
+  height: 100px;
 
   &_piedDePage ul {
     padding: 0%;

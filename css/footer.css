@@ -36,8 +36,9 @@ footer {
 .footer {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(#c4e7f2, #10406a);
-  height: 500px;
+  background-color: #c4e7f2;
+  align-items: center;
+  height: 100px;
 }
 .footer_piedDePage ul {
   padding: 0%;
