@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: $couleurPolice;
+    color: $fondFonce;
     font-weight: 500;
     font-size: 25px;
     text-align: center;
@@ -47,12 +47,12 @@
     width: 150px;
     padding: 15px;
     border-radius: 40px 0 40px 0;
-    border: 3px solid $couleurLienHover;
+    border: 3px solid $fondFonce;
     // text-shadow: 1px 1px 1px $fondFonce;
     // background-color: $fonfFooterEtTxtCard;
     background-color: white;
     // background: radial-gradient(white 30%, transparent);
-    box-shadow: 0px 0px 8px 5px $cardShadow;
+    // box-shadow: 0px 0px 8px 5px $cardShadow;
     @media screen and (max-width: 885px) {
       font-size: 20px;
       height: 10px;
@@ -61,7 +61,7 @@
   }
   &_menuDuHaut a:hover {
     color: $couleurLienHover;
-    box-shadow: 0px 0px 10px 5px $couleurLienHover;
+    box-shadow: 0px 0px 10px 5px $fondFonce;
   }
 
   &_menuDuHaut a:active {

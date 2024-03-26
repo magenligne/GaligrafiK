@@ -7,7 +7,6 @@
   font-weight: bold;
   margin: 40px 0 60px 0;
   background-color: #10406a;
-  box-shadow: 0px 0px 8px 5px #ababa7;
   height: 30px;
   border-radius: 15px;
   font-size: 20px;
@@ -20,10 +19,11 @@
 }
 
 .retourhaut:hover {
-  color: yellowgreen;
+  color: #c4e7f2;
+  box-shadow: 0px 0px 8px 5px #10406a;
 }
 
 .retourhaut:active {
   background-color: white;
-  color: yellowgreen;
+  color: #c4e7f2;
 }/*# sourceMappingURL=boutonRetourHaut.css.map */

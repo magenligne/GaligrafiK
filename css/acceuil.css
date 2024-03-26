@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(70, 69, 69);
+  color: #10406a;
   font-weight: 500;
   font-size: 25px;
   text-align: center;
@@ -46,9 +46,8 @@
   width: 150px;
   padding: 15px;
   border-radius: 40px 0 40px 0;
-  border: 3px solid grey;
+  border: 3px solid #10406a;
   background-color: white;
-  box-shadow: 0px 0px 8px 5px #ababa7;
 }
 @media screen and (max-width: 885px) {
   .ligneDuHaut_menuDuHaut a {
@@ -59,7 +58,7 @@
 }
 .ligneDuHaut_menuDuHaut a:hover {
   color: grey;
-  box-shadow: 0px 0px 10px 5px grey;
+  box-shadow: 0px 0px 10px 5px #10406a;
 }
 .ligneDuHaut_menuDuHaut a:active {
   background-color: white;
@@ -76,7 +75,6 @@
   font-weight: bold;
   margin: 40px 0 60px 0;
   background-color: #10406a;
-  box-shadow: 0px 0px 8px 5px #ababa7;
   height: 30px;
   border-radius: 15px;
   font-size: 20px;
@@ -89,12 +87,13 @@
 }
 
 .retourhaut:hover {
-  color: yellowgreen;
+  color: #c4e7f2;
+  box-shadow: 0px 0px 8px 5px #10406a;
 }
 
 .retourhaut:active {
   background-color: white;
-  color: yellowgreen;
+  color: #c4e7f2;
 }
 
 /*FOOTER*/
@@ -107,7 +106,6 @@
   font-weight: bold;
   margin: 40px 0 60px 0;
   background-color: #10406a;
-  box-shadow: 0px 0px 8px 5px #ababa7;
   height: 30px;
   border-radius: 15px;
   font-size: 20px;
@@ -120,12 +118,13 @@
 }
 
 .retourhaut:hover {
-  color: yellowgreen;
+  color: #c4e7f2;
+  box-shadow: 0px 0px 8px 5px #10406a;
 }
 
 .retourhaut:active {
   background-color: white;
-  color: yellowgreen;
+  color: #c4e7f2;
 }
 
 footer {
@@ -166,9 +165,9 @@ footer {
 }
 
 body {
-  font-family: "Advent Pro", sans-serif, Arial, Helvetica;
-  max-width: 1700px;
+  font-family: "Advent pro", sans-serif, Arial, Helvetica;
   margin: auto;
+  color: #10406a;
 }
 
 #bloc {
@@ -176,6 +175,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #10406a;
+}
+
+header {
+  background-color: #c4e7f2;
 }
 
 ul {
@@ -184,6 +188,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #10406a;
 }
 
 /*HEADER*/
@@ -199,6 +204,7 @@ header {
   align-items: center;
   text-align: center;
   width: 100%;
+  color: #10406a;
 }
 
 h3 {
@@ -206,23 +212,25 @@ h3 {
 }
 
 h1 {
+  font-family: "Charmonman", cursive;
+  font-size: 60px;
   text-align: center;
   padding: 0;
-  color: rgb(70, 69, 69);
+  color: #10406a;
   padding: 15px;
   margin: 20px 40px 20px 40px;
-  font-style: italic;
   border-radius: 25px 0;
 }
 @media screen and (max-width: 885px) {
   h1 {
-    font-size: 25px;
+    font-size: 35px;
   }
 }
 
 h2 {
-  color: rgb(70, 69, 69);
-  font-size: 35px;
+  font-family: "Charmonman", cursive;
+  color: #10406a;
+  font-size: 45px;
   padding: 15px;
   margin: 0px 0 20px 0;
   text-align: center;
@@ -236,7 +244,7 @@ h2 {
 }
 
 h3 {
-  color: rgb(70, 69, 69);
+  color: #10406a;
   font-style: italic;
   display: flex;
   align-items: center;
@@ -252,27 +260,6 @@ h3 {
 @media screen and (max-width: 885px) {
   h3 {
     font-size: 17px;
-  }
-}
-
-.imgordinature {
-  margin: 15px 5px 10px 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  width: 45%;
-  border-radius: 25px 0;
-  border: 5px grey solid;
-}
-@media screen and (max-width: 885px) {
-  .imgordinature {
-    width: 35%;
-    animation: 3s apparition;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    width: 100%;
   }
 }
 
@@ -309,8 +296,8 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 0 25px;
-  border: 5px rgb(70, 69, 69) solid;
-  box-shadow: 0px 0px 8px 5px #ababa7;
+  border: 5px #10406a solid;
+  box-shadow: 0px 0px 8px 5px #10406a;
   width: 360px;
   min-width: 250px;
   height: 350px;
@@ -341,7 +328,7 @@ h3 {
   height: 30%;
   padding: 1px 10px 20px 5px;
   margin-top: 5px;
-  color: rgb(70, 69, 69);
+  color: #10406a;
   border-radius: 0 0 0 25px;
 }
 @media screen and (max-width: 885px) {
@@ -365,7 +352,7 @@ h3 {
   margin: 5px 0 0 0;
 }
 .listeSites .card_textCard a {
-  color: rgb(70, 69, 69);
+  color: #10406a;
   font-size: 14px;
   font-weight: 700;
 }
@@ -396,8 +383,8 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 0 25px;
-  border: 5px rgb(70, 69, 69) solid;
-  box-shadow: 0px 0px 8px 5px #ababa7;
+  border: 5px #10406a solid;
+  box-shadow: 0px 0px 8px 5px #10406a;
   width: 360px;
   min-width: 250px;
 }
@@ -424,13 +411,13 @@ h3 {
   align-items: flex-start;
   height: 20%;
   padding: 1px 10px 20px 5px;
-  color: rgb(70, 69, 69);
+  color: #10406a;
   border-radius: 0 0 0 25px;
   margin-top: 5px;
 }
 .listeDesign .card_textCard_skills {
   font-size: 12px;
-  color: rgb(70, 69, 69);
+  color: #10406a;
 }
 .listeDesign .card_textCard p {
   font-weight: 600;
@@ -454,7 +441,7 @@ h3 {
   }
 }
 .listeDesign .card_textCard a {
-  color: rgb(70, 69, 69);
+  color: #10406a;
   font-size: 14px;
   font-weight: 700;
 }
@@ -471,7 +458,7 @@ h3 {
 }
 
 .lien a {
-  color: rgb(70, 69, 69);
+  color: #10406a;
   font-weight: bold;
   margin-top: 10px;
   margin-left: 20px;
@@ -495,8 +482,8 @@ h3 {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: black;
-  border-color: black;
+  background-color: #10406a;
+  border-color: #10406a;
   height: 22px;
   width: 20px;
   margin: 5px;
@@ -542,7 +529,7 @@ h3 {
 
 .OCR a {
   font-weight: bold;
-  color: rgb(70, 69, 69);
+  color: #10406a;
 }
 @media screen and (max-width: 885px) {
   .OCR a {
