@@ -26,6 +26,7 @@
   flex-direction: center;
   justify-content: center;
   margin: 10px;
+  width: 28%;
 }
 @media screen and (max-width: 885px) {
   .ligneDuHaut_menuDuHaut li {
@@ -43,7 +44,7 @@
   text-align: center;
   height: 35px;
   font-style: italic;
-  width: 150px;
+  width: 90%;
   padding: 15px;
   border-radius: 40px 0 40px 0;
   border: 3px solid #10406a;
@@ -178,10 +179,6 @@ body {
   color: #10406a;
 }
 
-header {
-  background-color: #c4e7f2;
-}
-
 ul {
   list-style-type: none;
 }
@@ -207,6 +204,14 @@ header {
   color: #10406a;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 25%;
+}
+
 h3 {
   font-weight: lighter;
 }
@@ -217,8 +222,8 @@ h1 {
   text-align: center;
   padding: 0;
   color: #10406a;
-  padding: 15px;
-  margin: 20px 40px 20px 40px;
+  padding: 0px;
+  margin: 30px 40px 0px 40px;
   border-radius: 25px 0;
 }
 @media screen and (max-width: 885px) {

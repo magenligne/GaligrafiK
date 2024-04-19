@@ -21,9 +21,9 @@ body {
   color: $fondFonce;
 }
 
-header {
-  background-color: $fondClair;
-}
+// header {
+//   background-color: $fondClair;
+// }
 
 ul {
   list-style-type: none;
@@ -57,6 +57,15 @@ header {
 // h3 {
 //   font-family: "Satisfy", cursive;
 // }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  & img {
+    width: 25%;
+  }
+}
+
 h3 {
   font-weight: lighter;
 }
@@ -67,8 +76,8 @@ h1 {
   text-align: center;
   padding: 0;
   color: $fondFonce;
-  padding: 15px;
-  margin: 20px 40px 20px 40px;
+  padding: 0px;
+  margin: 30px 40px 0px 40px;
   // background: radial-gradient(#444440, grey, grey);
   border-radius: 25px 0;
   // text-shadow: 1px 1px 2px grey, 0 0 1em grey, 0 0 0.9em grey;

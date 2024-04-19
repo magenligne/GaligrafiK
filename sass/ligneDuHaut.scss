@@ -10,6 +10,7 @@
   align-items: center;
   width: 100%;
   background-color: $fondClair;
+  min-height: 250px;
   // background: linear-gradient(to bottom, white, grey, white);
   //url("../images/ordiNature.jpg");
   // linear-gradient($fondFonce, $fondClair);
@@ -29,6 +30,7 @@
     flex-direction: center;
     justify-content: center;
     margin: 10px;
+    width: 28%;
     @media screen and (max-width: 885px) {
       margin: 10px;
       width: 67%;
@@ -44,7 +46,7 @@
     text-align: center;
     height: 35px;
     font-style: italic;
-    width: 150px;
+    width: 90%;
     padding: 15px;
     border-radius: 40px 0 40px 0;
     border: 3px solid $fondFonce;

@@ -6,6 +6,7 @@
   align-items: center;
   width: 100%;
   background-color: #c4e7f2;
+  min-height: 250px;
 }
 .ligneDuHaut_menuDuHaut {
   display: flex;
@@ -24,6 +25,7 @@
   flex-direction: center;
   justify-content: center;
   margin: 10px;
+  width: 28%;
 }
 @media screen and (max-width: 885px) {
   .ligneDuHaut_menuDuHaut li {
@@ -41,7 +43,7 @@
   text-align: center;
   height: 35px;
   font-style: italic;
-  width: 150px;
+  width: 90%;
   padding: 15px;
   border-radius: 40px 0 40px 0;
   border: 3px solid #10406a;
