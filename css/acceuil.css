@@ -7,7 +7,8 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: #c4e7f2;
+  background-color: #537b86;
+  min-height: 250px;
 }
 .ligneDuHaut_menuDuHaut {
   display: flex;
@@ -88,13 +89,13 @@
 }
 
 .retourhaut:hover {
-  color: #c4e7f2;
+  color: #537b86;
   box-shadow: 0px 0px 8px 5px #10406a;
 }
 
 .retourhaut:active {
   background-color: white;
-  color: #c4e7f2;
+  color: #537b86;
 }
 
 /*FOOTER*/
@@ -119,13 +120,13 @@
 }
 
 .retourhaut:hover {
-  color: #c4e7f2;
+  color: #537b86;
   box-shadow: 0px 0px 8px 5px #10406a;
 }
 
 .retourhaut:active {
   background-color: white;
-  color: #c4e7f2;
+  color: #537b86;
 }
 
 footer {
@@ -135,7 +136,7 @@ footer {
 .footer {
   display: flex;
   justify-content: space-around;
-  background-color: #c4e7f2;
+  background-color: #537b86;
   align-items: center;
   height: 100px;
 }
@@ -212,10 +213,6 @@ header {
   width: 25%;
 }
 
-h3 {
-  font-weight: lighter;
-}
-
 h1 {
   font-family: "Charmonman", cursive;
   font-size: 60px;
@@ -249,7 +246,7 @@ h2 {
 }
 
 h3 {
-  color: #10406a;
+  color: rgb(247, 243, 243);
   font-style: italic;
   display: flex;
   align-items: center;
@@ -296,16 +293,16 @@ h3 {
 }
 
 .listeSites .card {
-  background-color: #c4e7f2;
+  background-color: #537b86;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: end;
   border-radius: 0 25px;
   border: 5px #10406a solid;
   box-shadow: 0px 0px 8px 5px #10406a;
   width: 360px;
   min-width: 250px;
-  height: 350px;
+  height: 540px;
 }
 @media screen and (max-width: 885px) {
   .listeSites .card {
@@ -313,11 +310,13 @@ h3 {
     height: 320px;
   }
 }
+.listeSites .card h3 {
+  width: 85%;
+}
 .listeSites .card:hover {
   box-shadow: 0 0px 8px 10px grey;
 }
 .listeSites .card img {
-  border-radius: 0 25px 0 0;
   max-height: 59%;
 }
 @media screen and (max-width: 885px) {
@@ -333,7 +332,7 @@ h3 {
   height: 30%;
   padding: 1px 10px 20px 5px;
   margin-top: 5px;
-  color: #10406a;
+  color: rgb(247, 243, 243);
   border-radius: 0 0 0 25px;
 }
 @media screen and (max-width: 885px) {
@@ -342,8 +341,9 @@ h3 {
   }
 }
 .listeSites .card_textCard_skills {
-  font-size: 12px;
-  color: rgb(70, 69, 69);
+  font-size: 16px;
+  color: rgb(247, 243, 243);
+  width: 90%;
 }
 @media screen and (max-width: 885px) {
   .listeSites .card_textCard_skills {
@@ -357,7 +357,7 @@ h3 {
   margin: 5px 0 0 0;
 }
 .listeSites .card_textCard a {
-  color: #10406a;
+  color: rgb(247, 243, 243);
   font-size: 14px;
   font-weight: 700;
 }
@@ -383,15 +383,16 @@ h3 {
 }
 
 .listeDesign .card {
-  background-color: #c4e7f2;
+  background-color: #537b86;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: end;
   border-radius: 0 25px;
   border: 5px #10406a solid;
   box-shadow: 0px 0px 8px 5px #10406a;
   width: 360px;
   min-width: 250px;
+  height: 650px;
 }
 @media screen and (max-width: 885px) {
   .listeDesign .card {
@@ -402,7 +403,6 @@ h3 {
   box-shadow: 0 0px 8px 10px grey;
 }
 .listeDesign .card img {
-  border-radius: 0 25px 0 0;
   max-height: 73%;
 }
 .listeDesign .card_img {
@@ -413,25 +413,32 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: 20%;
   padding: 1px 10px 20px 5px;
-  color: #10406a;
+  color: rgb(247, 243, 243);
   border-radius: 0 0 0 25px;
   margin-top: 5px;
 }
 .listeDesign .card_textCard_skills {
-  font-size: 12px;
-  color: #10406a;
+  width: 75%;
+  color: rgb(247, 243, 243);
 }
 .listeDesign .card_textCard p {
   font-weight: 600;
   text-align: left;
   padding-left: 10px;
   margin: 2px 0 0 0;
+  font-size: 16px;
+}
+@media screen and (max-width: 885px) {
+  .listeDesign .card_textCard p {
+    font-size: 10px;
+  }
 }
 .listeDesign .card_textCard h3 {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 20px;
   margin: 5px 5px 0 0;
@@ -439,6 +446,7 @@ h3 {
   padding-left: 10px;
   border-radius: 25px 0;
   height: 52px;
+  width: 92%;
 }
 @media screen and (max-width: 885px) {
   .listeDesign .card_textCard h3 {

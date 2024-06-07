@@ -20,13 +20,13 @@
 }
 
 .retourhaut:hover {
-  color: #c4e7f2;
+  color: #537b86;
   box-shadow: 0px 0px 8px 5px #10406a;
 }
 
 .retourhaut:active {
   background-color: white;
-  color: #c4e7f2;
+  color: #537b86;
 }
 
 footer {
@@ -36,7 +36,7 @@ footer {
 .footer {
   display: flex;
   justify-content: space-around;
-  background-color: #c4e7f2;
+  background-color: #537b86;
   align-items: center;
   height: 100px;
 }
