@@ -107,7 +107,7 @@ h2 {
 }
 
 h3 {
-  color: $couleurPolice;
+  // color: $couleurPolice;
   // color: white;
 
   font-style: italic;
@@ -118,11 +118,9 @@ h3 {
   margin: 5px 5px 5px 0;
   padding-top: 5px;
   padding-left: 10px;
-  // background: radial-gradient(transparent, grey);
   // background: radial-gradient(rgb(88, 86, 86), grey, grey);
   height: 32px;
   font-style: italic;
-  border-radius: 25px 0;
   padding: 10px;
   @media screen and (max-width: 885px) {
     font-size: 17px;
@@ -196,6 +194,7 @@ h3 {
   & h3 {
     // background: radial-gradient(#444440, grey, grey);
     width: 85%;
+    color: $couleurPolice;
   }
   &:hover {
     box-shadow: 0 0px 8px 10px $contour;
