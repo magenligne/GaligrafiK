@@ -369,31 +369,32 @@ h3 {
   background-color: #537b86;
   display: flex;
   flex-direction: column;
+  justify-content: end;
   border: 5px #10406a solid;
-  width: 360px;
+  width: 370px;
   min-width: 250px;
+  height: 690px;
 }
 @media screen and (max-width: 885px) {
   .listeDesign .card {
     width: 260px;
+    height: 500px;
   }
 }
 .listeDesign .card:hover {
   box-shadow: 0 0px 8px 10px grey;
 }
 .listeDesign .card img {
-  max-height: 73%;
-}
-.listeDesign .card_img {
-  border-radius: 0 25px 0 0;
-  max-height: 73%;
+  max-height: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .listeDesign .card_textCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 20%;
+  height: 370px;
   padding: 5px 10px 20px 5px;
   color: rgb(247, 243, 243);
   border-radius: 0 0 0 25px;
@@ -438,6 +439,82 @@ h3 {
   font-weight: 700;
 }
 .listeDesign .card_textCard a:hover {
+  color: grey;
+}
+
+.listeDesign .paysage {
+  background-color: #537b86;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 5px #10406a solid;
+  width: 370px;
+  min-width: 250px;
+  height: 490px;
+}
+@media screen and (max-width: 885px) {
+  .listeDesign .paysage {
+    width: 260px;
+    height: 500px;
+  }
+}
+.listeDesign .paysage:hover {
+  box-shadow: 0 0px 8px 10px grey;
+}
+.listeDesign .paysage img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.listeDesign .paysage_textCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+  padding: 5px 10px 20px 5px;
+  color: rgb(247, 243, 243);
+  border-radius: 0 0 0 25px;
+  margin-top: 5px;
+}
+.listeDesign .paysage_textCard_skills {
+  width: 75%;
+  color: rgb(247, 243, 243);
+}
+.listeDesign .paysage_textCard p {
+  font-weight: 600;
+  text-align: left;
+  padding-left: 10px;
+  margin: 2px 0 0 0;
+  font-size: 16px;
+}
+@media screen and (max-width: 885px) {
+  .listeDesign .paysage_textCard p {
+    font-size: 10px;
+  }
+}
+.listeDesign .paysage_textCard h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 5px 5px 0 0;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-radius: 25px 0;
+  height: 52px;
+  width: 92%;
+}
+@media screen and (max-width: 885px) {
+  .listeDesign .paysage_textCard h3 {
+    font-size: 17px;
+  }
+}
+.listeDesign .paysage_textCard a {
+  color: #10406a;
+  font-size: 14px;
+  font-weight: 700;
+}
+.listeDesign .paysage_textCard a:hover {
   color: grey;
 }
 

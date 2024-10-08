@@ -269,17 +269,17 @@ h3 {
   background-color: $fondClair;
   display: flex;
   flex-direction: column;
-  // justify-content: end;
+  justify-content: end;
   // border-radius: 0 25px;
 
   border: 5px $fondFonce solid;
   // box-shadow: 0px 0px 8px 5px $fondFonce;
-  width: 360px;
+  width: 370px;
   min-width: 250px;
-  // height: 650px;
+  height: 690px;
   @media screen and (max-width: 885px) {
     width: 260px;
-    // height: 500px;
+    height: 500px;
   }
 
   &:hover {
@@ -287,25 +287,28 @@ h3 {
   }
   & img {
     // border-radius: 0 25px 0 0;
-    max-height: 73%;
+    max-height: 70%;
+    object-fit: cover;
     // @media screen and (max-width: 885px) {
     //   height: 63%;
     // }
   }
-  &_img {
-    border-radius: 0 25px 0 0;
-    max-height: 73%;
-    // @media screen and (max-width: 885px) {
-    //   height: 63%;
-    // }
-  }
+  // &_img {
+  //   border-radius: 0 25px 0 0;
+  //   max-height: 73%;
+  //   height: 505px;
+
+  //   // @media screen and (max-width: 885px) {
+  //   //   height: 63%;
+  //   // }
+  // }
 
   &_textCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: 370px;
     // background-color: $fondFonce;
     padding: 5px 10px 20px 5px;
     color: $couleurPolice;
@@ -362,8 +365,108 @@ h3 {
     }
   }
 }
-// .card_textCard_moodboard {
-// }
+
+.listeDesign .paysage {
+  background-color: $fondClair;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  // border-radius: 0 25px;
+
+  border: 5px $fondFonce solid;
+  // box-shadow: 0px 0px 8px 5px $fondFonce;
+  width: 370px;
+  min-width: 250px;
+  height: 490px;
+  @media screen and (max-width: 885px) {
+    width: 260px;
+    height: 500px;
+  }
+
+  &:hover {
+    box-shadow: 0 0px 8px 10px $contour;
+  }
+  & img {
+    // border-radius: 0 25px 0 0;
+    // max-height: 73%;
+    height: 300px;
+    object-fit: cover;
+    // @media screen and (max-width: 885px) {
+    //   height: 63%;
+    // }
+  }
+  // &_img {
+  //   border-radius: 0 25px 0 0;
+  //   max-height: 73%;
+  //   height: 505px;
+
+  //   // @media screen and (max-width: 885px) {
+  //   //   height: 63%;
+  //   // }
+  // }
+
+  &_textCard {
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    // background-color: $fondFonce;
+    padding: 5px 10px 20px 5px;
+    color: $couleurPolice;
+    border-radius: 0 0 0 25px;
+    margin-top: 5px;
+    // @media screen and (max-width: 885px) {
+    //   height: 40%;
+    // }
+    &_skills {
+      width: 75%;
+      // font-size: 14px;
+      color: $couleurPolice;
+      // @media screen and (max-width: 885px) {
+      //   font-size: 12px;
+      // }
+    }
+
+    & p {
+      font-weight: 600;
+      text-align: left;
+      padding-left: 10px;
+      margin: 2px 0 0 0;
+      font-size: 16px;
+      @media screen and (max-width: 885px) {
+        font-size: 10px;
+      }
+    }
+
+    & h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      margin: 5px 5px 0 0;
+      padding-top: 5px;
+      padding-left: 10px;
+      border-radius: 25px 0;
+      // background: radial-gradient(rgb(88, 83, 83), grey, grey);
+      height: 52px;
+      width: 92%;
+      @media screen and (max-width: 885px) {
+        font-size: 17px;
+      }
+    }
+
+    & a {
+      color: $fondFonce;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    & a:hover {
+      color: $couleurLienHover;
+      // background-color: rgba(245,245,245,0.5);
+    }
+  }
+}
 
 // fin liste design
 
